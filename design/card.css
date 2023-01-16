@@ -2,7 +2,13 @@ body {
     background-color: #f2ebe3;
 }
 
+img.product-img {
+    width: 50%;
+    height: 100%
+}
+
 .card {
+    display: flex;
     position: relative;
     left: 340px;
     height: 500px;
@@ -11,21 +17,37 @@ body {
     border: dotted;
 }
 
-.card img {
-    width: 50%;
-    height: 100% 
+.text {
+    position: relative;
+    left: 80px;
+    flex-direction: column;
+    align-content: space-around;
 }
 
-.card h2 {
+h2.product-title {
     position: relative;
-    float: right;
-    right: 200px;
 }
-.card h3 {
+
+h3.product-name {
     position: relative;
-    float: right;
-    right: 100px;
-    top: 100px;
+}
+
+h4.product-description {
+  position: relative;
+  top: 10px;
+}
+
+h1.product-price {
+  position: relative;
+
+}
+
+h5.discounted-price {
+
+}
+
+button.add-to-cart {
+
 }
 .card h4 {
     position: relative;

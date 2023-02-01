@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,700&family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,700&display=swap');
 
 body {
@@ -12,7 +12,7 @@ body {
     display: flex;
     position: relative;
     height: 500px;
-    width: 800px;
+    width: 700px;
 }
 
 
@@ -25,9 +25,7 @@ body {
 .text-container {
     position: relative;
     width: 50%;
-    /* font-size: 14px; */
     background-color: white;
-    /* top: 60px; */
     border-radius: 0px 15px 15px 0px;
     
     
@@ -39,48 +37,56 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    left: 80px;
+    left: 40px;
     
 
 }
 
-h2.product-title {
+h4.product-title {
     position: relative;
-    /* font-family: 'Fraunces'; */
+    top: 15px;
     font-family: 'Montserrat';
+    font-weight: 700
 }
 
-h3.product-name {
+h3.product-name { /* WHY DOESN'T THIS MOVE */
     position: relative;
-    font-family: 'Fraunces'
+    top: 50px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
 }
 
 h4.product-description {
   position: relative;
-  top: 10px;
+  top: -10px;
+  font-family: 'Montserrat';
 }
 
-h1.product-price {
+h2.product-price {
   position: relative;
   color: #3c8067;
+  top: -30px;
+  font-size: 40px;
+  font-family: 'Fraunces', serif;
 
 }
 
 h5.discounted-price {
     position: relative;
-    color: #3c8067;
-    left: 150px;
-    top: -70px;
+    left: 180px;
+    top: -125px;
+    font-size: 16px;
 }
 
 button.add-to-cart {
     position: relative;
     background-color: #3c8067;
+    border-radius: 15px;
     font-size: 18px;
     color: white;
-    height: 75px;
-    width: 250px;
-    top: -40px;
+    height: 55px;
+    width: 270px;
+    top: -110px;
 }
 
 .card h4 {

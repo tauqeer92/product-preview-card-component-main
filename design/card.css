@@ -8,18 +8,18 @@ body {
     align-items: center;
 }
 
-.product-img {
-    float: left;
-    width: 50%;
-    height: 100%
-}
-
 .card {
     display: flex;
     position: relative;
     height: 500px;
     width: 800px;
-    border: dotted;
+}
+
+
+.product-img {
+    float: left;
+    width: 50%;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .text-container {
@@ -28,6 +28,8 @@ body {
     /* font-size: 14px; */
     background-color: white;
     /* top: 60px; */
+    border-radius: 0px 15px 15px 0px;
+    
     
     
 }
@@ -38,6 +40,7 @@ body {
     flex-direction: column;
     align-content: space-between;
     left: 80px;
+    
 
 }
 
@@ -59,22 +62,25 @@ h4.product-description {
 
 h1.product-price {
   position: relative;
+  color: #3c8067;
 
 }
 
 h5.discounted-price {
     position: relative;
+    color: #3c8067;
     left: 150px;
-    top: -50px;
+    top: -70px;
 }
 
 button.add-to-cart {
+    position: relative;
     background-color: #3c8067;
     font-size: 18px;
     color: white;
     height: 75px;
     width: 250px;
-    /* top: 10px; */
+    top: -40px;
 }
 
 .card h4 {
